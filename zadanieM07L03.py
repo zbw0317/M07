@@ -1,3 +1,9 @@
+# Napisz funkcję `matrix_transpose(matrix)`, która przyjmuje macierz i zwraca jej transpozycję przy użyciu zagnieżdżonej listy składanej. 
+#    - Hint 1 -  jak zaprezentować macierz w kodzie?
+#      Jako listę list, gdzie każda wewnętrzna lista to wiersz macierzy.
+#    - Hint 2 - co to transpozycja macierzy?
+#      Transpozycja macierzy polega na zamianie jej wierszy na kolumny.
+          
 def matrix_transpose(matrix):
     return [[matrix[j][i] for j in range(len(matrix))] for i in range(len(matrix[0]))]
 
@@ -43,3 +49,6 @@ if __name__ == '__main__':
 #     [2, 5, 8],
 #     [3, 6, 9]
 # ]
+
+# - Uruchom:
+# https://colab.research.google.com/drive/15rymPBtNQ8gkMSA08Lbqdu1MFvH6hjMb#scrollTo=344OFUqIqBZL
